@@ -160,3 +160,43 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+.introduction-social-media-links {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.introduction-social-media-links-ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.introduction-social-media-links-li {
+  color: #1af7ff;
+  background-color: #00171f;
+  border: 1px solid #1af7ff;
+  border-radius: 30px;
+  padding: 5px 12px;
+  font-size: 25px;
+  margin: 5px;
+}
+
+.introduction-social-media-links-li:hover {
+  text-decoration: none;
+  background-color: #1af7ff;
+  color: #00171f;
+}
+
+.introduction-icon-color {
+  color: #1af7ff;
+}
+
+.introduction-icon-color:hover {
+  color: #00171f;
+}
