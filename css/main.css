@@ -142,3 +142,21 @@ body {
     box-shadow: 0 0 0 0 #1af7ff00;
   }
 }
+
+.introduction-name {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.introduction-designation {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
