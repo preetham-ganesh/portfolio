@@ -19,10 +19,6 @@ body {
   margin-top: 10px;
 }
 
-.text-cyan {
-  color: #1af7ff;
-}
-
 .navbar-toggler {
   border-color: #1af7ff;
 }
@@ -46,11 +42,15 @@ body {
   color: #002139;
 }
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
   .navbar-collapse .navlink {
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
+  }
+
+  .content {
+    width: 100%;
   }
 }
 
@@ -58,12 +58,6 @@ body {
   .content {
     width: 1100px;
     margin: auto;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .content {
-    width: 100%;
   }
 }
 
@@ -199,4 +193,66 @@ body {
 
 .introduction-icon-color:hover {
   color: #00171f;
+}
+
+.section-heading {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #00171f !important;
+}
+
+.card-shadow {
+  -moz-box-shadow: 0 0 10px 5px #000b13;
+  -webkit-box-shadow: 0 0 10px 5px #000b13;
+  box-shadow: 0 0 10px 5px #000b13;
+}
+
+.font-size-15 {
+  font-size: 15px;
+}
+
+.text-grey {
+  color: #b8bbbc;
+}
+
+.text-cyan {
+  color: #1af7ff;
+}
+
+.text-deep-navy-blue {
+  color: #002139;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #1af7ff;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #1af7ff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
