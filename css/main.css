@@ -155,50 +155,43 @@ body {
   padding-bottom: 5px;
 }
 
-.introduction-social-media-links {
+.introduction-links-container {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-.introduction-social-media-links-ul {
+.introduction-links-ul {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   justify-content: center;
 }
 
-.introduction-social-media-links-li {
+.introduction-links-btn {
   color: #1af7ff;
   background-color: #00171f;
+  text-decoration: none;
+  transition: all 0.5s;
   border: 1px solid #1af7ff;
   border-radius: 30px;
-  padding: 5px 12px;
+  padding: 5px 10px;
   font-size: 25px;
   margin: 5px;
 }
 
-.introduction-social-media-links-li:hover {
+.introduction-links-btn:hover {
   text-decoration: none;
   background-color: #1af7ff;
-  color: #00171f;
-}
-
-.introduction-icon-color {
-  color: #1af7ff;
-}
-
-.introduction-icon-color:hover {
   color: #00171f;
 }
 
 .section-heading {
   font-size: 30px;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-bottom: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
