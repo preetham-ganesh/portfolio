@@ -263,7 +263,7 @@ body {
   transform-origin: bottom left;
 }
 
-.card-tag-ul {
+.card-tags-ul {
   display: flex;
   list-style-type: none;
   margin: 0;
@@ -271,7 +271,7 @@ body {
   flex-wrap: wrap;
 }
 
-.card-tag-li {
+.card-tags-li {
   padding: 4px 8px 4px 8px;
   background-color: #1af7ff30;
   border-radius: 30px;
