@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-  border-bottom: 1px solid #1af7ff;
+  border-bottom: 1px solid #1af7ff43;
   background-color: #00171f;
 }
 
@@ -30,7 +30,6 @@ body {
 .navlink {
   margin: 5px;
   padding: 7px;
-  border: 1px solid #1af7ff;
   border-radius: 4px;
   text-decoration: none;
   transition: all 0.5s;
@@ -38,7 +37,7 @@ body {
 
 .navlink:hover {
   text-decoration: none;
-  background-color: #1af7ff;
+  background-color: #1af7ffe0;
   color: #002139;
 }
 
@@ -155,50 +154,40 @@ body {
   padding-bottom: 5px;
 }
 
-.introduction-social-media-links {
+.social-media-links-container {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-.introduction-social-media-links-ul {
+.social-media-links-ul {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   justify-content: center;
 }
 
-.introduction-social-media-links-li {
+.social-media-links-btn {
   color: #1af7ff;
-  background-color: #00171f;
-  border: 1px solid #1af7ff;
+  text-decoration: none;
+  transition: all 0.5s;
   border-radius: 30px;
-  padding: 5px 12px;
-  font-size: 25px;
+  padding: 4px 8px;
   margin: 5px;
 }
 
-.introduction-social-media-links-li:hover {
+.social-media-links-btn:hover {
   text-decoration: none;
   background-color: #1af7ff;
-  color: #00171f;
-}
-
-.introduction-icon-color {
-  color: #1af7ff;
-}
-
-.introduction-icon-color:hover {
   color: #00171f;
 }
 
 .section-heading {
   font-size: 30px;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-bottom: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -206,6 +195,7 @@ body {
 
 .card {
   margin: 20px;
+  margin-bottom: 30px;
   padding: 20px;
   border-radius: 20px;
   background: #00171f !important;
@@ -221,8 +211,24 @@ body {
   font-size: 15px;
 }
 
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
 .text-grey {
   color: #b8bbbc;
+}
+
+.text-light-grey {
+  color: #e9ebeb;
 }
 
 .text-cyan {
@@ -249,10 +255,25 @@ body {
   left: 0;
   background-color: #1af7ff;
   transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  transition: transform 0.3s ease-out;
 }
 
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.card-tags-ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0px 0px 0px;
+  flex-wrap: wrap;
+}
+
+.card-tags-li {
+  padding: 4px 8px 4px 8px;
+  background-color: #1af7ff30;
+  border-radius: 30px;
+  margin: 5px;
 }
