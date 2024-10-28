@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-  border-bottom: 1px solid #1af7ff;
+  border-bottom: 1px solid #1af7ff43;
   background-color: #00171f;
 }
 
@@ -30,7 +30,6 @@ body {
 .navlink {
   margin: 5px;
   padding: 7px;
-  border: 1px solid #1af7ff;
   border-radius: 4px;
   text-decoration: none;
   transition: all 0.5s;
@@ -38,7 +37,7 @@ body {
 
 .navlink:hover {
   text-decoration: none;
-  background-color: #1af7ff;
+  background-color: #1af7ffe0;
   color: #002139;
 }
 
@@ -172,10 +171,8 @@ body {
 
 .introduction-links-btn {
   color: #1af7ff;
-  background-color: #00171f;
   text-decoration: none;
   transition: all 0.5s;
-  border: 1px solid #1af7ff;
   border-radius: 30px;
   padding: 5px 10px;
   font-size: 25px;
@@ -199,6 +196,7 @@ body {
 
 .card {
   margin: 20px;
+  margin-bottom: 30px;
   padding: 20px;
   border-radius: 20px;
   background: #00171f !important;
@@ -212,6 +210,14 @@ body {
 
 .font-size-15 {
   font-size: 15px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-12 {
+  font-size: 12px;
 }
 
 .text-grey {
@@ -242,10 +248,25 @@ body {
   left: 0;
   background-color: #1af7ff;
   transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  transition: transform 0.3s ease-out;
 }
 
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.card-tag-ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0px 0px 0px;
+  flex-wrap: wrap;
+}
+
+.card-tag-li {
+  padding: 5px 10px 5px 10px;
+  background-color: #1af7ff30;
+  border-radius: 30px;
+  margin: 5px;
 }
