@@ -154,14 +154,14 @@ body {
   padding-bottom: 5px;
 }
 
-.introduction-links-container {
+.social-media-links-container {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-.introduction-links-ul {
+.social-media-links-ul {
   display: flex;
   list-style-type: none;
   margin: 0;
@@ -169,17 +169,16 @@ body {
   justify-content: center;
 }
 
-.introduction-links-btn {
+.social-media-links-btn {
   color: #1af7ff;
   text-decoration: none;
   transition: all 0.5s;
   border-radius: 30px;
-  padding: 5px 10px;
-  font-size: 25px;
+  padding: 4px 8px;
   margin: 5px;
 }
 
-.introduction-links-btn:hover {
+.social-media-links-btn:hover {
   text-decoration: none;
   background-color: #1af7ff;
   color: #00171f;
@@ -220,8 +219,16 @@ body {
   font-size: 12px;
 }
 
+.font-size-20 {
+  font-size: 20px;
+}
+
 .text-grey {
   color: #b8bbbc;
+}
+
+.text-light-grey {
+  color: #e9ebeb;
 }
 
 .text-cyan {
@@ -265,7 +272,7 @@ body {
 }
 
 .card-tag-li {
-  padding: 5px 10px 5px 10px;
+  padding: 4px 8px 4px 8px;
   background-color: #1af7ff30;
   border-radius: 30px;
   margin: 5px;
