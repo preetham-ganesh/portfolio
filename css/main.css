@@ -223,6 +223,10 @@ section {
   font-size: 12px;
 }
 
+.font-size-13 {
+  font-size: 13px;
+}
+
 .font-size-20 {
   font-size: 20px;
 }
@@ -271,7 +275,7 @@ section {
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 5px 0px 0px 0px;
+  padding: 5px 0px 20px 0px;
   flex-wrap: wrap;
 }
 
