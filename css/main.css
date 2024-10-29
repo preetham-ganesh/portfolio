@@ -184,6 +184,10 @@ body {
   color: #00171f;
 }
 
+section {
+  scroll-margin-top: 70px;
+}
+
 .section-heading {
   font-size: 30px;
   text-align: center;
