@@ -205,6 +205,12 @@ section {
   background: #00171f !important;
 }
 
+.card:hover {
+  -ms-transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
 .card-shadow {
   -moz-box-shadow: 0 0 10px 5px #000b13;
   -webkit-box-shadow: 0 0 10px 5px #000b13;
