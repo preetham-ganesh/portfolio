@@ -313,3 +313,9 @@ section {
   border-radius: 30px;
   margin: 5px;
 }
+
+.section-archive-link {
+  display: flex;
+  padding-right: 15px;
+  justify-content: flex-end;
+}
