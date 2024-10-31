@@ -213,9 +213,14 @@ section {
 
 .card-links-ul {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.card-links-ul li {
+  margin: 5px;
 }
 
 .card-links-btn {
@@ -224,7 +229,6 @@ section {
   transition: all 0.5s;
   border-radius: 4px;
   padding: 5px 10px;
-  margin: 5px;
 }
 
 .card-links-btn:hover {
