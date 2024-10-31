@@ -319,3 +319,7 @@ section {
   padding-right: 15px;
   justify-content: flex-end;
 }
+
+.section-return-link {
+  padding-left: 15px;
+}
