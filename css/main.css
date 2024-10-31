@@ -205,6 +205,34 @@ section {
   background: #00171f !important;
 }
 
+.card:hover {
+  -ms-transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+.card-links-ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-links-btn {
+  color: #1af7ff;
+  text-decoration: none;
+  transition: all 0.5s;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.card-links-btn:hover {
+  text-decoration: none;
+  background-color: #1af7ff;
+  color: #00171f;
+}
+
 .card-shadow {
   -moz-box-shadow: 0 0 10px 5px #000b13;
   -webkit-box-shadow: 0 0 10px 5px #000b13;
@@ -284,4 +312,14 @@ section {
   background-color: #1af7ff30;
   border-radius: 30px;
   margin: 5px;
+}
+
+.section-archive-link {
+  display: flex;
+  padding-right: 15px;
+  justify-content: flex-end;
+}
+
+.section-return-link {
+  padding-left: 15px;
 }
