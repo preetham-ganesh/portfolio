@@ -13,3 +13,14 @@ This repository contains the source code for my personal portfolio website. It's
 - 🔗 Links to live app demos, GitHub repositories, and Hugging Face models
 - 📚 Publications and certifications including AWS Cloud Practitioner and Prompt Engineering book
 - 🌐 Hosted on a Homelab server using Docker and Nginx
+
+### Build & Run with Docker
+
+```bash
+# Clones the repository.
+git clone https://github.com/preetham-ganesh/portfolio.git
+cd portfolio
+
+# Builds and runs the container in detached mode.
+docker-compose up -d
+```
