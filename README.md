@@ -28,3 +28,7 @@ docker-compose up -d
 ## License
 
 This project is licensed under the [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/).
+
+## Support
+
+For any queries regarding the repository contact 'preetham.ganesh2021@gmail.com'.
