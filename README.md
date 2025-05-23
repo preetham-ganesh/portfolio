@@ -24,3 +24,7 @@ cd portfolio
 # Builds and runs the container in detached mode.
 docker-compose up -d
 ```
+
+## License
+
+This project is licensed under the [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/).
